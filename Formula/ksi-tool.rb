@@ -1,9 +1,9 @@
 class KsiTool < Formula
   desc "KSI C SDK"
   homepage "https://github.com/guardtime/ksi-tool/"
-  url "https://github.com/guardtime/ksi-tool/archive/v2.3.984.tar.gz"
-  version "2.3.984"
-  sha256 "4d259f9c8c8154f6176aeda5e395f174676defb575be0a6c0103a2c0c6b29a2b"
+  url "https://github.com/guardtime/ksi-tool/archive/v2.4.1038.tar.gz"
+  version "2.4.1038"
+  sha256 "c551b0f0b2db7b79bb756dcef56eeae4a955d259daf679523108995c417f6198"
 
   depends_on "openssl"
   depends_on "curl"
