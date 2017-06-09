@@ -1,9 +1,9 @@
 class Libksi < Formula
   desc "KSI C SDK"
   homepage "https://guardtime.github.io/libksi/"
-  url "https://github.com/guardtime/libksi/archive/v3.12.2010.tar.gz"
-  version "3.12.2010"
-  sha256 "b6d0dff13e69a9ee12ef09701c0f50d275bcb1af54e4f465248a2e3fd361930e"
+  url "https://github.com/guardtime/libksi/archive/v3.13.2043.tar.gz"
+  version "3.13.2043"
+  sha256 "2d51458a5429e6e3d7bec539282a7e58f90b6ef19c63df775f1ec6fa2e5914c8"
 
   depends_on "openssl"
   depends_on "curl"
@@ -44,7 +44,7 @@ class Libksi < Formula
     EOS
     system ENV.cc, "test.c", "-I#{include}", "-L#{lib}",
                    "-lksi", "-o", "test"
-    system "./test" 
+    system "./test"
   end
 end
 
