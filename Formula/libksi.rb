@@ -1,8 +1,8 @@
 class Libksi < Formula
   desc "KSI C SDK"
   homepage "https://guardtime.github.io/libksi/"
-  url "https://github.com/guardtime/libksi/archive/v3.13.2043.tar.gz"
-  sha256 "2d51458a5429e6e3d7bec539282a7e58f90b6ef19c63df775f1ec6fa2e5914c8"
+  url "https://github.com/guardtime/libksi/archive/v3.14.2207.tar.gz"
+  sha256 "f9776f2bf1ce08caf3efe39dbdeb0aea797243aceb4620040ef2c2997129fa1d"
 
   head do
     url "https://github.com/guardtime/libksi.git"
