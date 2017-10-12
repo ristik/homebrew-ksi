@@ -1,8 +1,8 @@
 class Libksi < Formula
   desc "KSI C SDK"
   homepage "https://guardtime.github.io/libksi/"
-  url "https://github.com/guardtime/libksi/archive/v3.15.2306.tar.gz"
-  sha256 "09a173f2101db4dc6d31e535850d6bfdeb9478bfbb96baae506c9842d24dda41"
+  url "https://github.com/guardtime/libksi/archive/v3.16.2473.tar.gz"
+  sha256 "115f2c804b9ba0fb3fb9f313bd21b6d9bb3d9c88356dc5727f000c20f4d4147c"
 
   head do
     url "https://github.com/guardtime/libksi.git"
@@ -12,7 +12,6 @@ class Libksi < Formula
   end
 
   depends_on "openssl"
-  # depends_on "curl" # macos-provided is ok
   # Release tarball misses configure/make scripts
   depends_on "autoconf" => :build
   depends_on "automake" => :build
@@ -45,4 +44,3 @@ class Libksi < Formula
     system "./test"
   end
 end
-
