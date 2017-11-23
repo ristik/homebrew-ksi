@@ -1,9 +1,8 @@
 class KsiTool < Formula
   desc "KSI Command-line Tool"
   homepage "https://github.com/guardtime/ksi-tool/"
-  url "https://github.com/guardtime/ksi-tool/archive/v2.6.1136.tar.gz"
-  sha256 "915c51380c9b1217c7633d88308f7d79564d837775e88754909548e509fe2d63"
-  revision 1
+  url "https://github.com/guardtime/ksi-tool/archive/v2.7.1200.tar.gz"
+  sha256 "544bb2569752ac09e41e827e7412f9d612ae57f895d06e29bd0f056ce08fc3ec"
 
   head do
     url "https://github.com/guardtime/ksi-tool.git"
@@ -28,6 +27,6 @@ class KsiTool < Formula
   end
 
   test do
-    system bin/"ksi"
+    system "#{bin}/ksi", "--version"
   end
 end
