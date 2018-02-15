@@ -3,6 +3,7 @@ class KsiTool < Formula
   homepage "https://github.com/guardtime/ksi-tool/"
   url "https://github.com/guardtime/ksi-tool/archive/v2.7.1200.tar.gz"
   sha256 "544bb2569752ac09e41e827e7412f9d612ae57f895d06e29bd0f056ce08fc3ec"
+  revision 1
 
   head do
     url "https://github.com/guardtime/ksi-tool.git"
