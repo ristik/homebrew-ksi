@@ -1,4 +1,7 @@
-Homebrew recipes for some MacOS packages. Just a convenience, not a maintained product.
+Please use the official repository: https://github.com/guardtime/homebrew-ksi
 
-    brew tap ristik/ksi
-    brew install ksi-tool
+tl;dr:
+
+    brew untap ristik/ksi
+    brew tap guardtime/ksi
+
